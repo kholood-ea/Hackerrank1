@@ -15,7 +15,8 @@ namespace Problems
             // RecArea.readVariables();
             //UtopianTree.ReadVar();
             // FindDigits.ReadVar();
-            ServiceLane.ReadVar();
+            // ServiceLane.ReadVar();
+            DivisibleSumPairs.ReadVar();
             Console.ReadLine();
             
         }
