@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatsAndMouse.cs" />
     <Compile Include="DivisibleSumPairs.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="IndexOfArrEle.cs" />

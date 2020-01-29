@@ -16,7 +16,8 @@ namespace Problems
             //UtopianTree.ReadVar();
             // FindDigits.ReadVar();
             // ServiceLane.ReadVar();
-            DivisibleSumPairs.ReadVar();
+            //  DivisibleSumPairs.ReadVar();
+            CatsAndMouse.ReadVar();
             Console.ReadLine();
             
         }
