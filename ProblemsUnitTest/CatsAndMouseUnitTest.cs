@@ -7,7 +7,7 @@ namespace ProblemsUnitTest
     public class CatsAndMouseUnitTest
     {
         [TestMethod]
-        public void WhoCaoughtTheMouse()
+        public void WhoCoughtTheMouse()
         {
             Assert.AreEqual("Cat B", Problems.CatsAndMouse.catAndMouse(1, 2, 3));
             Assert.AreEqual("Cat A", Problems.CatsAndMouse.catAndMouse(6, 2, 7));
