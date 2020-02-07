@@ -8,9 +8,10 @@ namespace Problems
 {
    public class BonAppétit
     {
-       public static void bonAppetit(List<int> bill, int k, int b)
+       public static string bonAppetit(List<int> bill, int k, int b)
         {
             int sum=0;
+            string bon = "";
             for (int i = 0; i < bill.Count; i++)
             {
                 sum += bill[i];
@@ -19,12 +20,16 @@ namespace Problems
 
             if (((sum-bill[k]) / 2) == b)
             {
-                Console.WriteLine("Bon Appetit");
+                bon = "Bon Appetit";
+              //  Console.WriteLine(bon);
             }
             else
             {
-                Console.WriteLine(b - ((sum - bill[k]) / 2));
+                bon = (b - ((sum - bill[k]) / 2)).ToString();
+
+                //    Console.WriteLine(b - ((sum - bill[k]) / 2));
             }
+            return bon;
 
         }
 
@@ -40,7 +45,8 @@ namespace Problems
 
             int b = Convert.ToInt32(Console.ReadLine().Trim());
 
-            bonAppetit(bill, k, b);
+           string bon= bonAppetit(bill, k, b);
+            Console.WriteLine(bon);
         }
     }
 

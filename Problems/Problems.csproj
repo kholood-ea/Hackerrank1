@@ -48,6 +48,7 @@
     <Compile Include="DivisibleSumPairs.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="IndexOfArrEle.cs" />
+    <Compile Include="InsertionSort.cs" />
     <Compile Include="NumberOfWords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
