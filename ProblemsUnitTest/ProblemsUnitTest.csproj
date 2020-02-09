@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NumberOfWordsUnitTest.cs" />
     <Compile Include="RecAreaUnitTest.cs" />
+    <Compile Include="runningTimeUnitTest.cs" />
     <Compile Include="ServiceLaneUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>

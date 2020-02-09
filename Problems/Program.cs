@@ -20,6 +20,7 @@ namespace Problems
             // CatsAndMouse.ReadVar();
             // BonAppétit.ReadVar();
             //InsertionSort.ReadVar();
+            AlgorithmsRunningTime.ReadVar();
             Console.ReadLine();
             
         }
