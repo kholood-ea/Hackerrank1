@@ -21,7 +21,17 @@ namespace Problems
             // BonAppétit.ReadVar();
             //InsertionSort.ReadVar();
             // AlgorithmsRunningTime.ReadVar();
-          //  MaximizingXOR.ReadVar();
+            //  MaximizingXOR.ReadVar();
+             LoveLetterMystery.ReadVar();
+            ///AlternatingCharacters.ReadVar();
+            // ViviplanTask1.ReadVar();
+            // ViviplanTask2.ReadVarPV();
+            //ViviplanTask2.ReadVarFV();
+            // ViviplanTask2.ReadVarADP();
+            // ViviplanTask2.ReadProcess();
+
+
+
             Console.ReadLine();
             
         }

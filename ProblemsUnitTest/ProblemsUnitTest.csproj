@@ -49,10 +49,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlternatingCharactersUnitTest.cs" />
     <Compile Include="bonAppetitUnitTest.cs" />
     <Compile Include="CatsAndMouseUnitTest.cs" />
     <Compile Include="divisibleSumPairsUnitTest.cs" />
     <Compile Include="FindDigitsUnitTest.cs" />
+    <Compile Include="LoveLetterMysteryUnitTest.cs" />
     <Compile Include="maximizingXorUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NumberOfWordsUnitTest.cs" />
