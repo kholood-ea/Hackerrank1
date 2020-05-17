@@ -35,6 +35,11 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,15 +53,18 @@
     <Compile Include="BonAppétit.cs" />
     <Compile Include="CatsAndMouse.cs" />
     <Compile Include="DivisibleSumPairs.cs" />
+    <Compile Include="HasUniqueChars.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="IndexOfArrEle.cs" />
     <Compile Include="InsertionSort.cs" />
+    <Compile Include="JumpingOnClouds.cs" />
     <Compile Include="LoveLetterMystery.cs" />
     <Compile Include="MaximizingXOR.cs" />
     <Compile Include="NumberOfWords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecArea.cs" />
+    <Compile Include="SequenceEquation.cs" />
     <Compile Include="ServiceLane.cs" />
     <Compile Include="UtopianTree .cs" />
     <Compile Include="ViviplanTask1.cs" />
@@ -64,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,6 +10,8 @@ namespace Problems
     {
         public static void Main()
         {
+
+
             // IndexOfArrEle.ReadVariables();
             // NumberOfWords.ReadVariables();
             // RecArea.readVariables();
@@ -22,14 +24,16 @@ namespace Problems
             //InsertionSort.ReadVar();
             // AlgorithmsRunningTime.ReadVar();
             //  MaximizingXOR.ReadVar();
-             LoveLetterMystery.ReadVar();
+            //LoveLetterMystery.ReadVar();
             ///AlternatingCharacters.ReadVar();
             // ViviplanTask1.ReadVar();
             // ViviplanTask2.ReadVarPV();
             //ViviplanTask2.ReadVarFV();
             // ViviplanTask2.ReadVarADP();
             // ViviplanTask2.ReadProcess();
-
+            //SequenceEquation.ReadVar();
+            //JumpingOnClouds.ReadVar();
+             HasUniqueChars.ReadVar();
 
 
             Console.ReadLine();

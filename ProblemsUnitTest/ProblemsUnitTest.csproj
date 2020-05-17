@@ -53,13 +53,16 @@
     <Compile Include="bonAppetitUnitTest.cs" />
     <Compile Include="CatsAndMouseUnitTest.cs" />
     <Compile Include="divisibleSumPairsUnitTest.cs" />
+    <Compile Include="HasUniqueCharsUnitTest.cs" />
     <Compile Include="FindDigitsUnitTest.cs" />
+    <Compile Include="jumpingOnCloudsUnitTest.cs" />
     <Compile Include="LoveLetterMysteryUnitTest.cs" />
     <Compile Include="maximizingXorUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NumberOfWordsUnitTest.cs" />
     <Compile Include="RecAreaUnitTest.cs" />
     <Compile Include="runningTimeUnitTest.cs" />
+    <Compile Include="SequenceEquationUnitTest.cs" />
     <Compile Include="ServiceLaneUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
